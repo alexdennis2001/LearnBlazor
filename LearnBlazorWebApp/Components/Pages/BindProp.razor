@@ -1,0 +1,118 @@
+@page "/learnBlazor/bindprop"
+@rendermode InteractiveServer
+
+<div class="row">
+    <div class="col-6 border p-3">
+        <h3 class="text-primary">Product Playground</h3>
+        <hr/>
+        <h5>Active: <input type="checkbox" @bind-value="@product.IsActive"></h5>
+        <h5>Input Price:</h5><input type="number" @bind="product.Price" @bind:event="oninput">
+        <h5>Color:</h5>
+        <select @bind="selectedProp">
+            @foreach (var prop in product.Product_Properties)
+            {
+                <option>@prop.Color</option>
+            }
+        </select>
+    </div>
+    <div class="col-6 border p-3">
+        <h3 class="text-primary">Product Summary</h3>
+        <hr/>
+        <h5>Id: @product.Id</h5>
+        <h5>Product is: @(product.IsActive ? "Active" : "Inactive")</h5>
+        <h5>Name: @product.Name</h5>
+        <h5>Price: @product.Price</h5>
+        <h5>Color: @selectedProp</h5>
+    </div>
+    <div class="col-12 border p-3">
+        <h1 class="text-success">Product Table</h1>
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>IsActive</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach(var prod in ProductList)
+            {
+                <tr>
+                    <td>
+                        <input @bind="prod.Name">
+                    </td>
+                    <td>
+                        <input type="number" @bind="prod.Price" @bind:event="oninput"/>
+                    </td>
+                    <td>
+                        <input type="checkbox" @bind="prod.IsActive"/>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="col-12 border p-3">
+        <h1 class="text-success">Product Summary</h1>
+        @foreach(var prod in ProductList)
+        {
+            <h5>@prod.Name [@prod.Price] is @(prod.IsActive ? "Active" : "Inactive")</h5>
+        }
+    </div>
+</div>
+
+
+@code {
+    private string selectedProp = "";
+    
+    Product product = new Product()
+    {
+        Id = 1,
+        Name = "iPhone X",
+        Price = 1500,
+        IsActive = false,
+        Product_Properties = new List<Product_Prop>()
+        {
+            new Product_Prop(){Id = 1, Color = "Red"},
+            new Product_Prop(){Id = 2, Color = "Blue"},
+            new Product_Prop(){Id = 3, Color = "White"},
+            new Product_Prop(){Id = 4, Color = "Black"},
+            new Product_Prop(){Id = 5, Color = "Grey"},
+        }
+    };
+
+    List<Product> ProductList = new();
+
+    protected override void OnInitialized()
+    {
+        ProductList.Add(new()
+        {
+            Id = 2,
+            Name = "iPad 15",
+            Price = 13000,
+            IsActive = false,
+            Product_Properties = new List<Product_Prop>()
+            {
+                new Product_Prop { Id = 1, Color = "Yellow"},
+                new Product_Prop { Id = 2, Color = "Blue"},
+                new Product_Prop { Id = 3, Color = "White"}
+            }
+        });
+
+        ProductList.Add(new()
+        {
+            Id = 3,
+            Name = "MacBook Pro",
+            Price = 22000,
+            IsActive = true,
+            Product_Properties = new List<Product_Prop>()
+            {
+                new Product_Prop { Id = 1, Color = "Orange"},
+                new Product_Prop { Id = 2, Color = "Blue"},
+                new Product_Prop { Id = 3, Color = "White"}
+            }
+        });
+    }
+
+}

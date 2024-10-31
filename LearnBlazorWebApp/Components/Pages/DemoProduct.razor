@@ -1,0 +1,58 @@
+@page "/learnBlazor/demoproduct"
+@rendermode InteractiveServer
+
+
+<h3>DemoProduct</h3>
+
+<div class="row">
+    @foreach (var prod in ProductList)
+    {
+        <div class="col-6 border p-3">
+            <h4>Product - @prod.Id</h4>
+            <p>Name - @prod.Name</p>
+            <p>Show Available Colors: <input type="checkbox" @bind="@prod.IsActive"/></p>
+            @if (@prod.IsActive)
+            {
+                foreach (var prodProps in prod.Product_Properties)
+                {
+                    <p>@prodProps.Id - @prodProps.Color</p>
+                }
+            }
+        </div>    
+    }
+</div>
+
+@code {
+    List<Product> ProductList = new();
+
+    protected override void OnInitialized()
+    {
+        ProductList.Add(new()
+        {
+            Id = 2,
+            Name = "iPad 15",
+            Price = 13000,
+            IsActive = false,
+            Product_Properties = new List<Product_Prop>()
+            {
+                new Product_Prop { Id = 1, Color = "Yellow"},
+                new Product_Prop { Id = 2, Color = "Blue"},
+                new Product_Prop { Id = 3, Color = "White"}
+            }
+        });
+
+        ProductList.Add(new()
+        {
+            Id = 3,
+            Name = "MacBook Pro",
+            Price = 22000,
+            IsActive = true,
+            Product_Properties = new List<Product_Prop>()
+            {
+                new Product_Prop { Id = 1, Color = "Orange"},
+                new Product_Prop { Id = 2, Color = "Blue"},
+                new Product_Prop { Id = 3, Color = "White"}
+            }
+        });
+    }
+}
