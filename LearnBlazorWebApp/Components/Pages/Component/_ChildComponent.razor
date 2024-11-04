@@ -1,0 +1,28 @@
+<div>
+    <div class="alert alert-info">
+        @Title
+    </div>
+    <div class="alert alert-success">
+        @ChildContent1
+    </div>
+    <div class="alert alert-light">
+        @ChildContent2
+    </div>
+    <button class="btn btn-danger" @onclick="OnButtonClick">Click Me</button>
+</div>
+
+<_GrandChildComponent MessageForGrandChild="@MessageForGrandChild">
+</_GrandChildComponent>
+
+@code {
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public RenderFragment ChildContent1 { get; set; }
+    [Parameter]
+    public RenderFragment ChildContent2 { get; set; }
+    [Parameter]
+    public EventCallback OnButtonClick { get; set; }
+    [Parameter]
+    public string MessageForGrandChild { get; set; }
+}

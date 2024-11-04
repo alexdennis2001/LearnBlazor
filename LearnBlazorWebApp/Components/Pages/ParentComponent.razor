@@ -1,0 +1,23 @@
+@page "/learnBlazor/parentComponent"
+@rendermode InteractiveServer
+
+<h3>Parent Component</h3>
+<CascadingValue Value="@LuckyNumber" Name="LuckyNumber">
+<_ChildComponent OnButtonClick="ShowMessage" Title="This title is passed as a parameter from child component" MessageForGrandChild="This message is passed from Parent">
+    <ChildContent1>Message 1</ChildContent1>
+    <ChildContent2>Message 2</ChildContent2>
+</_ChildComponent>
+</CascadingValue>
+
+<p>@messageText</p>
+
+
+@code {
+    public string messageText = "";
+    public int LuckyNumber = 16;
+
+    private void ShowMessage()
+    {
+        messageText = "Button inside child component was clicked";
+    }
+}
