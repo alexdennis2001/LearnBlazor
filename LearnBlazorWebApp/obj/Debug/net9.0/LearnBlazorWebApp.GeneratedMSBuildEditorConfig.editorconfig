@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCaW5kUHJvcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
+[C:/Users/alejandro.dennis/OneDrive - Steel Dynamics Inc/Escritorio/Blazor Course/.NET 9/LearnBlazorWebApp/Components/Pages/Blazorjs.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xCbGF6b3Jqcy5yYXpvcg==
+=======
 [C:/Users/alejandro.dennis/OneDrive - Steel Dynamics Inc/Escritorio/Blazor Course/.NET 9/LearnBlazorWebApp/Components/Pages/Component/_ChildComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnRcX0NoaWxkQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +46,7 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/alejandro.dennis/OneDrive - Steel Dynamics Inc/Escritorio/Blazor Course/.NET 9/LearnBlazorWebApp/Components/Pages/Component/_IndividualProductComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnRcX0luZGl2aWR1YWxQcm9kdWN0Q29tcG9uZW50LnJhem9y
+>>>>>>> main
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/alejandro.dennis/OneDrive - Steel Dynamics Inc/Escritorio/Blazor Course/.NET 9/LearnBlazorWebApp/Components/Pages/Counter.razor]

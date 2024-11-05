@@ -78,3 +78,4 @@ C:\Users\alejandro.dennis\OneDrive - Steel Dynamics Inc\Escritorio\Blazor Course
 C:\Users\alejandro.dennis\OneDrive - Steel Dynamics Inc\Escritorio\Blazor Course\.NET 9\LearnBlazorWebApp\obj\Debug\net9.0\LearnBlazorWebApp.pdb
 C:\Users\alejandro.dennis\OneDrive - Steel Dynamics Inc\Escritorio\Blazor Course\.NET 9\LearnBlazorWebApp\obj\Debug\net9.0\LearnBlazorWebApp.genruntimeconfig.cache
 C:\Users\alejandro.dennis\OneDrive - Steel Dynamics Inc\Escritorio\Blazor Course\.NET 9\LearnBlazorWebApp\obj\Debug\net9.0\ref\LearnBlazorWebApp.dll
+C:\Users\alejandro.dennis\OneDrive - Steel Dynamics Inc\Escritorio\Blazor Course\.NET 9\LearnBlazorWebApp\obj\Debug\net9.0\compressed\hdbdaon3r9-xr3au8vmek.gz
