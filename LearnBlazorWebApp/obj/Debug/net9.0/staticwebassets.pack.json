@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\wwwroot\\js\\common.js",
+      "PackagePath": "staticwebassets\\js\\common.js"
+    },
+    {
       "Id": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },

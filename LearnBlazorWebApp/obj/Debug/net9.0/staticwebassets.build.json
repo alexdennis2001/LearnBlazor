@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j8hbddhm6sKhY2u3HkhY1NdIvFCcnwWKl9TItZXQUFE=",
+  "Hash": "fvq4sgnn23SlCefdScqh00dre2Bt1a7s8oECBuMBZDw=",
   "Source": "LearnBlazorWebApp",
   "BasePath": "_content/LearnBlazorWebApp",
   "Mode": "Default",
@@ -477,6 +477,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\obj\\Debug\\net9.0\\compressed\\hdbdaon3r9-xr3au8vmek.gz",
+      "SourceId": "LearnBlazorWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/LearnBlazorWebApp",
+      "RelativePath": "js/common#[.{fingerprint=xr3au8vmek}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\wwwroot\\js\\common.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "uzbymoue54",
+      "Integrity": "xvhzVtM7zK3bhgeJEwI+r3LaqDD8u42O2TxuTm4DvMc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\wwwroot\\js\\common.js"
     },
     {
       "Identity": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\obj\\Debug\\net9.0\\compressed\\iaql1f6tw1-8vyfqsqgz1.gz",
@@ -1086,6 +1107,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\wwwroot\\js\\common.js",
+      "SourceId": "LearnBlazorWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\wwwroot\\",
+      "BasePath": "_content/LearnBlazorWebApp",
+      "RelativePath": "js/common#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xr3au8vmek",
+      "Integrity": "nZ9nqs2KIIAqSMFzytRfz8SntvMceYFdhptXEwIBpJA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\common.js"
     },
     {
       "Identity": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -2390,6 +2432,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "js/common.js",
+      "AssetFile": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\obj\\Debug\\net9.0\\compressed\\hdbdaon3r9-xr3au8vmek.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004926108374"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xvhzVtM7zK3bhgeJEwI+r3LaqDD8u42O2TxuTm4DvMc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 13:54:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nZ9nqs2KIIAqSMFzytRfz8SntvMceYFdhptXEwIBpJA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nZ9nqs2KIIAqSMFzytRfz8SntvMceYFdhptXEwIBpJA="
+        }
+      ]
+    },
+    {
+      "Route": "js/common.js",
+      "AssetFile": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\wwwroot\\js\\common.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nZ9nqs2KIIAqSMFzytRfz8SntvMceYFdhptXEwIBpJA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 13:54:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nZ9nqs2KIIAqSMFzytRfz8SntvMceYFdhptXEwIBpJA="
+        }
+      ]
+    },
+    {
+      "Route": "js/common.js.gz",
+      "AssetFile": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\obj\\Debug\\net9.0\\compressed\\hdbdaon3r9-xr3au8vmek.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xvhzVtM7zK3bhgeJEwI+r3LaqDD8u42O2TxuTm4DvMc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 13:54:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xvhzVtM7zK3bhgeJEwI+r3LaqDD8u42O2TxuTm4DvMc="
+        }
+      ]
+    },
+    {
+      "Route": "js/common.xr3au8vmek.js",
+      "AssetFile": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\obj\\Debug\\net9.0\\compressed\\hdbdaon3r9-xr3au8vmek.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004926108374"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xvhzVtM7zK3bhgeJEwI+r3LaqDD8u42O2TxuTm4DvMc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 13:54:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nZ9nqs2KIIAqSMFzytRfz8SntvMceYFdhptXEwIBpJA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xr3au8vmek"
+        },
+        {
+          "Name": "label",
+          "Value": "js/common.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nZ9nqs2KIIAqSMFzytRfz8SntvMceYFdhptXEwIBpJA="
+        }
+      ]
+    },
+    {
+      "Route": "js/common.xr3au8vmek.js",
+      "AssetFile": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\wwwroot\\js\\common.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nZ9nqs2KIIAqSMFzytRfz8SntvMceYFdhptXEwIBpJA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 13:54:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xr3au8vmek"
+        },
+        {
+          "Name": "label",
+          "Value": "js/common.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nZ9nqs2KIIAqSMFzytRfz8SntvMceYFdhptXEwIBpJA="
+        }
+      ]
+    },
+    {
+      "Route": "js/common.xr3au8vmek.js.gz",
+      "AssetFile": "C:\\Users\\alejandro.dennis\\OneDrive - Steel Dynamics Inc\\Escritorio\\Blazor Course\\.NET 9\\LearnBlazorWebApp\\obj\\Debug\\net9.0\\compressed\\hdbdaon3r9-xr3au8vmek.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xvhzVtM7zK3bhgeJEwI+r3LaqDD8u42O2TxuTm4DvMc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 13:54:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xr3au8vmek"
+        },
+        {
+          "Name": "label",
+          "Value": "js/common.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xvhzVtM7zK3bhgeJEwI+r3LaqDD8u42O2TxuTm4DvMc="
         }
       ]
     },
