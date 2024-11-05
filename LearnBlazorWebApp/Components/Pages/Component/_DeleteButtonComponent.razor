@@ -1,0 +1,14 @@
+<input type="button" class="btn btn-danger" value="Delete" @onclick="HandleClick"/>
+
+@code {
+    [Parameter]
+    public int ProductId { get; set; }
+    
+    [Parameter]
+    public EventCallback OnButtonClick { get; set; }
+
+    private async Task HandleClick()
+    {
+        await OnButtonClick.InvokeAsync();
+    }
+}

@@ -1,28 +1,20 @@
 @page "/learnBlazor/demoproduct"
 @rendermode InteractiveServer
 
-
 <h3>DemoProduct</h3>
+<p>Favorite Count : @FavoriteCount</p>
+<p>Selected Product : @SelectedProduct</p>
 
 <div class="row">
     @foreach (var prod in ProductList)
     {
-        <div class="col-6 border p-3">
-            <h4>Product - @prod.Id</h4>
-            <p>Name - @prod.Name</p>
-            <p>Show Available Colors: <input type="checkbox" @bind="@prod.IsActive"/></p>
-            @if (@prod.IsActive)
-            {
-                foreach (var prodProps in prod.Product_Properties)
-                {
-                    <p>@prodProps.Id - @prodProps.Color</p>
-                }
-            }
-        </div>    
+        <_IndividualProductComponent Prod="prod" OnFavoriteUpdated="FavoriteCountChange" OnButtonClick="() => DeleteProduct(prod.Id)" OnSelectedProductChange="UpdateSelectedProduct"></_IndividualProductComponent>
     }
 </div>
 
 @code {
+    public int FavoriteCount { get; set; } = 0;
+    public string SelectedProduct { get; set; } = string.Empty;
     List<Product> ProductList = new();
 
     protected override void OnInitialized()
@@ -35,9 +27,9 @@
             IsActive = false,
             Product_Properties = new List<Product_Prop>()
             {
-                new Product_Prop { Id = 1, Color = "Yellow"},
-                new Product_Prop { Id = 2, Color = "Blue"},
-                new Product_Prop { Id = 3, Color = "White"}
+                new Product_Prop { Id = 1, Color = "Yellow" },
+                new Product_Prop { Id = 2, Color = "Blue" },
+                new Product_Prop { Id = 3, Color = "White" }
             }
         });
 
@@ -49,10 +41,36 @@
             IsActive = true,
             Product_Properties = new List<Product_Prop>()
             {
-                new Product_Prop { Id = 1, Color = "Orange"},
-                new Product_Prop { Id = 2, Color = "Blue"},
-                new Product_Prop { Id = 3, Color = "White"}
+                new Product_Prop { Id = 1, Color = "Orange" },
+                new Product_Prop { Id = 2, Color = "Blue" },
+                new Product_Prop { Id = 3, Color = "White" }
             }
         });
     }
-}
+
+    protected void FavoriteCountChange(bool isSelected)
+    {
+        if (isSelected)
+        {
+            FavoriteCount++;
+        }
+        else
+        {
+            FavoriteCount--;
+        }
+    }
+
+    protected void DeleteProduct(int prodId)
+    {
+        var prod = ProductList.FirstOrDefault(u => u.Id == prodId);
+        if (prod != null)
+        {
+            ProductList.Remove(prod);
+        }
+    }
+
+    protected void UpdateSelectedProduct(string productName)
+    {
+        SelectedProduct = productName;
+    }
+} 
